@@ -1,0 +1,33 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(0, 0, 0, 1)
+  );
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.overlayContent {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+}
+
+.overlayHeader {
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  text-align: left;
+}

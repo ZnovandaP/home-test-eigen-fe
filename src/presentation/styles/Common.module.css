@@ -1,0 +1,17 @@
+.buttonLink {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: rgba(183, 143, 240, 0.315);
+  border: 2px solid #822ef8;
+  color: #822ef8;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.buttonLink:hover {
+  background-color: rgba(130, 46, 248, 0.5);
+  color: #fff;
+}
